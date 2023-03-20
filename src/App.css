@@ -1,0 +1,204 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+
+.img-box {
+  width: 50%;
+  height: 100vh;
+}
+
+.img-box img {
+  width: 100%;
+  height: 100%;
+}
+
+.login-box {
+  background: rgb(231, 231, 231);
+  width: 50%;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  width: 65%;
+  height: 25%;
+}
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  height: 60%;
+  width: 65%;
+  gap: 50px;
+}
+
+.intro {
+  width: 70%;
+}
+
+.intro h1 {
+  padding-bottom: 15px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 55px;
+}
+
+.intro p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.campo {
+  display: flex;
+  flex-direction: column;
+}
+
+.campo label {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.campo input {
+  padding: 15px;
+  width: 60%;
+  border: 1px solid white;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+}
+.campo input:hover {
+  outline: 1px solid #9f67ff;
+}
+
+.login a button {
+  background: #7c3aed;
+  padding: 20px;
+  width: 60%;
+  cursor: pointer;
+  border-radius: 4px;
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: white;
+
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.login a button:hover {
+  background: #9f67ff;
+}
+
+.login p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #475569;
+}
+
+.login p a {
+  color: #7c3aed;
+  text-decoration: none;
+}
+
+.login p a:hover {
+  text-decoration: underline;
+}
+
+/* Erro Login */
+.input-error {
+  outline: 1px solid rgb(255, 72, 72);
+}
+
+.error-message {
+  color: red;
+  padding-top: 5px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+/* Botão senha */
+.eyes-box input {
+  width: 55%;
+}
+
+.campo .eyes-box {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: left;
+}
+
+.campo button {
+  width: 5%;
+  background: rgb(255, 255, 255);
+  margin-left: 1px;
+}
+
+.icon {
+  font-size: 17px;
+  cursor: pointer;
+}
+
+/* Responsividade */
+@media screen and (max-width: 1024px) {
+  .intro {
+    width: 100%;
+  }
+
+  .campo input {
+    width: 100%;
+  }
+
+  .login a button {
+    width: 100%;
+  }
+
+  .campo .eyes-box input {
+    width: 95%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .box {
+    width: 90%;
+    gap: 50px;
+  }
+
+  .logo {
+    width: 90%;
+    height: 25%;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .login-box {
+    width: 100%;
+    height: 100vh;
+  }
+
+  .img-box {
+    display: none;
+  }
+}
