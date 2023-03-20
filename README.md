@@ -35,7 +35,7 @@
 <li>Copie a URL do repositório</li>
 <li>Digite <code>git clone + URL copiada</code> e pressione <code>enter</code></li>
 
-<h3>2. Dentro do projeto recém-criado, basta executar os seguintes comandos: ⁣/h3>
+<h3>2. Dentro do projeto recém-criado, basta executar os seguintes comandos: </h3>
 
 <li><code>npm i</code> ou <code>npm install</code>, no qual vai baixar todos os pacotes necessários para rodar o projeto</li>
 <li><code>npm start</code> que vai abrir no navegador <code>http://localhost:3000</code>, aonde poderá ver o projeto </li>
