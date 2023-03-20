@@ -1,70 +1,41 @@
-# Getting Started with Create React App
+<h1>#BoraCodar - Desafio11</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![01](https://user-images.githubusercontent.com/112266976/226487759-882810c7-2512-43a4-824a-963016f79c06.png)
 
-## Available Scripts
 
-In the project directory, you can run:
+<h2>💻 Introdução</h2>
 
-### `npm start`
+<p>Esse é o desafio 11 do projeto criado pela <a href="https://www.rocketseat.com.br/">Rocketseat</a> chamado #boraCodar, cujo intuito é desafiar os devs e testar suas habilidades na programação e nesse desafio foi proposto fazer um layout de tela de login.</p>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<p>O formulário é validado utilizando a biblioteca React Hook Form, exibindo mensagens de erro caso algum campo seja deixado em branco. A senha apresenta um botão que permite alternar a exibição do texto entre visível e oculto. </p>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<h2>🚀 Tecnologias</h2>
+<h3>Front-End</h3>
 
-### `npm test`
+<li>Reactjs</li>
+<li>HTML</li>
+<li>CSS</li>
+<li>JavaScript</li>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<h3>Hospedagem</h3>
 
-### `npm run build`
+<li>Vercel</li>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<h3>Biblioteca</h3>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<li>React Icons</li>
+<li>React Hook Form</li>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+<h2>📝 Como executar</h2>
+<h3>1. Faça um clone desse repositório na sua máquina:</h3>
+<li>Crie uma pasta no seu computador para esse projeto, recomendo colocar o nome <b>BoraCodar</b></li>
+ 
+<li>Abra o <code>git bash</code> ou <code>terminal</code> dentro dessa pasta</li>
+<li>Copie a URL do repositório</li>
+<li>Digite <code>git clone + URL copiada</code> e pressione <code>enter</code></li>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<h3>2. Dentro do projeto recém-criado, basta executar os seguintes comandos: ⁣/h3>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<li><code>npm i</code> ou <code>npm install</code>, no qual vai baixar todos os pacotes necessários para rodar o projeto</li>
+<li><code>npm start</code> que vai abrir no navegador <code>http://localhost:3000</code>, aonde poderá ver o projeto </li>
